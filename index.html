@@ -9,10 +9,64 @@
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <h1>Nick Creel</h1>
+      </div>
+      <div class="row">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./CV.html">Curriculum Vitae</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </div>
+        <div class="row" id="aboutme">
+          <h2>About Me</h2>
+        </div>
+        <div class="row" id="projects">
+          <h2>Projects</h2>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{title_p1}}</h5>
+              <p class="card-text">
+                {{description_p1}}
+              </p>
+              <a href="{{link_p1}}" class="btn btn-primary">{{button_p1}}</a>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{title_p2}}</h5>
+              <p class="card-text">
+                {{description_p2}}
+              </p>
+              <a href="{{link_p2}}" class="btn btn-primary">{{button_p2}}</a>
+          </div>
+        </div>
+        <div class="row" id="contact">
+          <h2>Contact</h2>
+        </div>
+        <div class="row">
+          <ul>
+            <li>mail (academic): <a href="mailto:ncreel@marlboro.edu">ncreel(at)marlboro.edu</a></li>
+            <li>mail (personal): <a href="mailto:nick.creel@protonmail.com">nick(dot)creel(at)protonmail.com</a></li>
+            <li>github: <a href="https://github.com/ncreel">ncreel</a></li>
+        </div>
+    </div>
     <!-- javascript requirements -->
     <!-- order matters here...jquery then popper then bootstrap -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
   </body>
 </html>
