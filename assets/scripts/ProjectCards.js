@@ -16,13 +16,10 @@ var context = { "projects" : [
                  "imgsrc":"../images/hatsunemiku.jpg"
                  },
                  {"title": "Automatic Rendering of Augmented Events in Immersive Concerts",
-                  "description":"Research conducted at the University of Rochester \
-                  during the National Science Foundation Research Experience for \
-                  Undergraduates 'Computational Methods for Understanding Music, \
-                  Media, and Minds. I worked with Prof. Zhiyao Duan and Ph.D \
-                  candidate Christodoulous Benetatos of the AIR lab to create a \
-                  piece of software which automatically triggers pre-scripted \
-                  events based on a MusicXML score and audio input of a \
+                  "description": "I worked with Prof. Zhiyao Duan and Ph.D \
+                  candidate Christodoulous Benetatos of the AIR lab at the University of Rochester \
+                  to create software which automatically triggers pre-scripted \
+                  events based on a MusicXML score and realtime audio input of a \
                   performance",
                   "link":"../images/researchposter/index.html",
                   "button":"Read more",
@@ -36,7 +33,9 @@ var context = { "projects" : [
                    "link":"https://kolyaproject.bandcamp.com/",
                    "button":"Listen here",
                    "imgsrc":"../images/inmyroom.jpg"
-                   },
+                   }
+                 ]
+               }
 
 var html = templateScript(context)
 $('.project-cards').html(html)

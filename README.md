@@ -1,3 +1,15 @@
-nickcreel.me
+# 🚀 Welcome to your new awesome project!
 
-a personal/portfolio website built with node.js/bootstrap
+This project has been created using **webpack scaffold**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
