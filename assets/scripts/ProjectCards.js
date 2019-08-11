@@ -12,7 +12,7 @@ var context = { "projects" : [
                  video from a carefully curated youtube playlist of songs \
                  featuring virtual diva Hatsune Miku.",
                  "link":"https://hatsunem.icu",
-                 "button":"Listen to the First Sound of the Future",
+                 "button":"Draw your pick",
                  "imgsrc":"../images/hatsunemiku.jpg"
                  },
                  {"title": "Automatic Rendering of Augmented Events in Immersive Concerts",
@@ -24,9 +24,19 @@ var context = { "projects" : [
                   piece of software which automatically triggers pre-scripted \
                   events based on a MusicXML score and audio input of a \
                   performance",
-                  "link":"https://hatsunem.icu",
-                  "button":"Listen to the First Sound of the Future",
-                  "imgsrc":"../images/hatsunemiku.jpg"
+                  "link":"../images/researchposter/index.html",
+                  "button":"Read more",
+                  "imgsrc":"../images/AUTOMATICRENDERING.png"
                   },
+                  {"title": "KOLYA",
+                   "description":"When I'm not studying, I'm creating. Sometimes, \
+                   I upload some of my musical creations to my bandcamp. You can find \
+                   my longer works on my bandcamp, and I plan to include shorter pieces \
+                   in future interactive works.",
+                   "link":"https://kolyaproject.bandcamp.com/",
+                   "button":"Listen here",
+                   "imgsrc":"../images/inmyroom.jpg"
+                   },
+
 var html = templateScript(context)
 $('.project-cards').html(html)
