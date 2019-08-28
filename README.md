@@ -1,15 +1,11 @@
-# 🚀 Welcome to your new awesome project!
+nickcreel.me - my personal website. Built with:
 
-This project has been created using **webpack scaffold**, you can now run
+Bootstrap
+Handlebars.js
+JQuery
+Webpack
+Grunt
 
-```
-npm run build
-```
+I'm sticking all the help articles I had to read here for future reference.
 
-or
-
-```
-yarn build
-```
-
-to bundle your application
+[How to include Bootstrap in your project with Webpack](https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html)
