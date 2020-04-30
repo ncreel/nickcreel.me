@@ -14,7 +14,7 @@
     "bootstrap": "^4.3.1",
     "grunt": "^1.0.4",
     "handlebars": "^4.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "local-web-server": "^3.0.7",
     "mini-css-extract-plugin": "^0.8.0",
     "popper.js": "^1.15.0"
